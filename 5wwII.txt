@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta https-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>每日惊喜</title>
+  <script>var gameType = "ggk_180",kwaiPlatLogRequestId = "[[platLogRequestId]]",kwaiBackInteractiveUrl="[[backInteractiveUrl]]",kwaiBackCouponType="[[backCouponType]]", kwaiBackCouponNum="[[backCouponNum]]",gameConfig={kefu:true};</script>
+  <script>;var lrtool={url2json:function(a){var b=a.substr(a.indexOf('?')).substr(1),paramsArr=b.split("&"),paramJson={};if(b!=''){for(var i=0;i<paramsArr.length;i++){var c=paramsArr[i].split("=");c[1]==undefined?paramJson[c[0]]='':paramJson[c[0]]=c[1]}};return paramJson},getCookie:function(a){var b,reg=new RegExp("(^| )"+a+"=([^;]*)(;|$)");if(b=document.cookie.match(reg)){return unescape(b[2])}else{return null}}};var responseHeaderData={getFromHeader:false,req:''};!function(){var u=navigator.userAgent,ua={ios:!!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),uc:u.indexOf('UCBrowser')>-1,quark:u.indexOf('Quark')>-1,baidu:u.indexOf('Baidu')>-1},urlParams=lrtool.url2json(window.location.href),istrans=urlParams.serverCookie!=undefined,url='//api.interactive.lzdata.com.cn/landingPageStatus',interactiveType=gameType,adSpaceCode=urlParams.adSpaceCode,mediaRequestId=urlParams.mediaRequestId,platLogRequestId='',backInteractiveType=urlParams.backInteractiveType==undefined?null:urlParams.backInteractiveType,sitename=lrtool.getCookie('apicookie_'+adSpaceCode),platLogRequestId=lrtool.getCookie('platLogRequestId'),domain=urlParams.domain==undefined?'':urlParams.domain,tinyUrl=urlParams.tinyUrl==undefined?'':urlParams.tinyUrl;if(istrans){if(ua.ios&&(ua.uc||ua.quark||ua.baidu)){var a=new XMLHttpRequest();a.open('GET',document.location,false);a.send(null);responseHeaderData.getFromHeader=true;responseHeaderData.req=a;platLogRequestId=a.getResponseHeader('platLogRequestId')};sitename=urlParams.serverCookie};var b=url+"?adSpaceCode="+adSpaceCode+'&platLogRequestId='+platLogRequestId+'&interactiveType='+interactiveType+'&sitename='+sitename+'&backInteractiveType='+backInteractiveType+'&domain='+domain+'&tinyUrl='+tinyUrl;mediaRequestId==undefined?"":b+='&mediaRequestId='+mediaRequestId;new Image().src=b}();;</script>
+  <link rel="stylesheet" href="https://interactive-css.angpi.cn/1638351467958_ggk01.css">
+  <style>
+    .tac-app{background-color:#e81b20;}
+    .core{background-image:url(https://interactive-oss.angpi.cn/1634118999805_刮板背景.png);}
+    .hand{background-image:url(https://interactive-oss.angpi.cn/1598862177409_293f410392d90fb81c47.png);}
+    .prize-image-1{background-image:url(https://interactive-oss.angpi.cn/1634117524226_01.png);}
+    .prize-image-2{background-image:url(https://interactive-oss.angpi.cn/1634117528390_02.png);}
+    .prize-image-3{background-image:url(https://interactive-oss.angpi.cn/1634117513345_03.png);}
+    .prize-image-4{background-image:url(https://interactive-oss.angpi.cn/1598862168482_p4-4.png);}
+    .prize-image-5{background-image:url(https://interactive-oss.angpi.cn/1598862180232_p2-1.png);}
+    .prize-record{background-image:url(https://interactive-oss.angpi.cn/1598862193012_icon-myPrize-1.png);}
+  </style>
+  <style></style>
+  <script>gameConfig.kefu=false;
+gameConfig.myPrizeAddress = '//interactive.prize.bddwz.cn/myprize.html';</script>
+  
+</head>
+<body>
+  <div class="tac-app">
+    <img class="tac-app-bg" src="https://interactive-oss.angpi.cn/1634119313176_刮刮卡 拷贝 3.jpg">
+    <div class="tac-main">
+      <div class="style-main">
+        <div class="core">
+          <div class="hand"></div>
+          <div class="result-show">
+            <div class="star-left"></div>
+            <div class="star-right"></div>
+            <div class="result-redBag"></div>
+          </div>
+          <img class="card_bg" src="https://interactive-oss.angpi.cn/1634118293457_gua.png">
+          <canvas id="card_canvas" class="card" width="630"height="404"></canvas>
+          <div class="boom"></div>
+        </div>
+        <div class="times">今日剩余: <span>1</span> 次</div>
+      </div>
+      <div class="prizeContainer">
+        <div class="PrizeList_main">
+          <div class="PrizeList_wrapper">
+            <ul class="PrizeList_ul">
+              <li class="PrizeList_li"><div class="prize prize-image-1"></div></li>
+              <li class="PrizeList_li"><div class="prize prize-image-2"></div></li>
+              <li class="PrizeList_li"><div class="prize prize-image-3"></div></li>
+              <li class="PrizeList_li"><div class="prize prize-image-4"></div></li>
+              <li class="PrizeList_li"><div class="prize prize-image-5"></div></li>
+            </ul>
+          </div>
+        </div>
+        <div class="prize-tag"></div>
+      </div>
+    </div>
+    <div class="index_adtip"></div>
+    <div class="prize-record my-prize"></div>
+    <div id="ggk-rule-btn" class="tac-rule"></div>
+    <div class="index_disclaimer"></div>
+  </div>
+  <div id="ggk-rule-modal" class="rulemodal">
+    <div class="rule_body">
+      <div class="rule_content">
+        <div class="rule_wrapper">
+          <p>活动说明：<br>参加活动即有机会获得幸运奖~每天抽奖机会8次免费。此活动为概率中奖，奖品数量有限，祝好运！<br>惊喜一：iPhone13<br>惊喜二：华为Mate 40pro<br>惊喜三：iphone手表<br>惊喜四：幸运福袋<br>------------------------<br>重要声明：<br>1.奖品将在活动结束后5-10个工作日安排发放，请耐心等待。<br>2.优惠券类奖品的使用规则详见每个优惠券的介绍页<br>3.请兑换后仔细阅读使用流程，如有疑问，可直接联系客服专线<br>4.通过非法途径获得奖品的，主办方有权不提供奖品<br>------------------------<br>中奖概率说明：<br>iPhone13共50份，中奖概率0.005%；<br>华为Mate 40pro共200份，中奖概率0.001%；<br>iPhone手表共100份，中奖概率0.006%；<br>幸运福袋共500份，中奖概率0.01%。</p>
+        </div>
+      </div>
+      <div class="rule_close"></div>
+    </div>
+  </div>
+  <div class="errormodal">
+    <div class="error_close"></div>
+    <div class="error_body">
+      <div class="error_banner"></div>
+      <div class="error_title">系统开小差啦</div><div class="error_tip"></div>
+      <div class="error_btn">好的</div>
+    </div>
+  </div>
+  <div class="thanksmodal">
+    <span class="thanks-modal-close"><i class="modal-close"></i></span>
+    <div class="thanks-body">
+      <div class="thanks-btn-b">再来一次</div>
+    </div>
+  </div>
+  <section class="layer-105 showprizemodal">
+    <div class="close pclose"></div>
+    <div class="container">
+      <div class="box">
+        <div class="light"></div>
+        <div class="caidai"></div>
+        <div class="dialog">
+          <div class="dialog-title"></div>
+          <div class="couponLight couponLight1"></div>
+          <div class="couponLight couponLight2"></div>
+          <div class="coupon"><img class="pimg"></div>
+          <div class="counpon-name"><span class="name pname">平安110万保障免费领取</span></div>
+          <div class="btn pbtn"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="recommendmodal">
+    <div class="caidaisprites"></div>
+    <div class="recommend-modal-dialog">
+      <span class="recommend-modal-close"><i class="close"></i></span>
+      <div class="recommend-body"></div>
+    </div>
+  </div>
+  <section class="new-interaction">
+    <div class="container">
+      <div class="box">
+        <div class="light"></div>
+        <div class="dialog">
+          <div class="the-prize">
+            <!--奖品图-->
+            <div class="prize-drawing"></div>
+            <!--横向进度条-->
+            <div class="progress-text">中奖概率暴升至<span class="the-odds" id="theOdds"></span>%</div>
+            <div id="scheduleX"></div>
+            <!--再抽一次-->
+            <div class="Smoke-once-again"></div>
+            <!--放弃-->
+            <div class="give-up"></div>
+          </div>
+          <div class="notice_box scroll-notice">
+            <div class="notice">
+              <ul class="inner">
+                <li class="tc-swiper-item"><p><img src="https://interactive-oss.angpi.cn/1638253183555_04291240091312.jpeg" alt=""><span>向**</span></p><span class="notice-time">二分钟前</span><span class="notice-prize">抽中游戏机</span></li>
+                <li class="tc-swiper-item"><p><img src="https://interactive-oss.angpi.cn/1638253412494_04291240174008.jpeg" alt=""><span>王*</span></p><span class="notice-time">三分钟前</span><span class="notice-prize">抽中华为手机</span></li>
+                <li class="tc-swiper-item"><p><img src="https://interactive-oss.angpi.cn/1638253422574_04291240174048.jpeg" alt=""><span>刘**</span></p><span class="notice-time">三分钟前</span><span class="notice-prize">抽中iPhone13</span></li>
+                <li class="tc-swiper-item"><p><img src="https://interactive-oss.angpi.cn/1638253430991_04291240174061.jpeg" alt=""><span>白**</span></p><span class="notice-time">四分钟前</span><span class="notice-prize">抽中华为手机</span></li>
+                <li class="tc-swiper-item"><p><img src="https://interactive-oss.angpi.cn/1638253439668_04291240174065.jpeg" alt=""><span>张*</span></p><span class="notice-time">四分钟前</span><span class="notice-prize">抽中iPhone13</span></li>
+                <li class="tc-swiper-item"><p><img src="https://interactive-oss.angpi.cn/1638253447641_04291240174086.jpeg" alt=""><span>李**</span></p><span class="notice-time">四分钟前</span><span class="notice-prize">抽中iPhone13</span></li>
+                <li class="tc-swiper-item"><p><img src="https://interactive-oss.angpi.cn/1638253456230_04291240174107.jpeg" alt=""><span>习*</span></p><span class="notice-time">六分钟前</span><span class="notice-prize">抽中游戏机</span></li>
+                <li class="tc-swiper-item"><p><img src="https://interactive-oss.angpi.cn/1638253464065_04291240174108.jpeg" alt=""><span>赵**</span></p><span class="notice-time">六分钟前</span><span class="notice-prize">抽中华为手机</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://interactive-js.angpi.cn/1597804968352_jquery.min.js"></script>
+  <script src="https://interactive-js.angpi.cn/1638351497599_commonTools.js"></script>
+  <script src="https://interactive-js.angpi.cn/1627286528799_jc.min.js"></script>
+  <script></script>
+  
+  <script src="https://interactive-js.angpi.cn/1638351529105_ggk01.js"></script>
+</body>
+</html>
