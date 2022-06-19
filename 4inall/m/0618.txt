@@ -1,4 +1,6 @@
 {
+  "spider":"https://cdn.jsdelivr.net/gh/wangsmale/ctv@latest/4inall/m/0618.jar",
+  
   "sites": [
     {
       "key": "csp_77",
