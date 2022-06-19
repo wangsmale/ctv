@@ -11,7 +11,7 @@
 {
 "wallpaper":"https://picsum.photos/1280/720/?blur=10",
 
-"spider":"https://cdn.jsdelivr.net/gh/wangsmale/ctv@latest/4inall/m/xm.jar",
+"spider":"https://wp.wangshi520.com/down.php/c5c0fabcd4f0d1e464b5d760361f499e.jar",
 
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":[
 "proxy://do=live&type=txt&ext=Y2xhbjovL20vVFYvbGl2ZS50eHQ="
