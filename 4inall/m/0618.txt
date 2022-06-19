@@ -1,6 +1,4 @@
 {
-  "spider":"https://wp.wangshi520.com/down.php/f94998bac4caa291b4d15439f7e4346b.jar",
-  
   "sites": [
     {
       "key": "csp_77",
@@ -1013,5 +1011,5 @@
     "cms.qdwght.com"
   ],
   "wallpaper": "https://picsum.photos/1080",
-  "spider": "clan://m/0618.jar;md5;f94998bac4caa291b4d15439f7e4346b"
+  "spider": "https://wp.wangshi520.com/down.php/f94998bac4caa291b4d15439f7e4346b.jar;md5;f94998bac4caa291b4d15439f7e4346b"
 }
