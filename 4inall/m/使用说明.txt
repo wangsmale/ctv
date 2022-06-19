@@ -1,6 +1,6 @@
 解压缩到盒子或者手机系统存储目录，别的目录不能正常使用，需要自己改路径。
 猫影视app里面需要填的路径，四合一需要哪个填哪个
-clan://m/0618                       群里0618
-clan://m/b08                         baddychen0608
-clan://m/t3                           唐三
-clan://m/xm                         小明
+clan://localhost/m/0618                       群里0618
+clan://localhost/m/b08                         baddychen0608
+clan://localhost/m/t3                           唐三
+clan://localhost/m/xm                         小明
