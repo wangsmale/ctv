@@ -1,5 +1,5 @@
 {
-  "spider":"https://cdn.jsdelivr.net/gh/wangsmale/ctv@latest/4inall/m/0618.jar",
+  "spider":"https://wp.wangshi520.com/down.php/f94998bac4caa291b4d15439f7e4346b.jar",
   
   "sites": [
     {
