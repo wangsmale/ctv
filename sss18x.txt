@@ -605,5 +605,5 @@
     "cms.qdwght.com"
   ],
   "wallpaper": "https://tva1.sinaimg.cn/large/005SyZH5ly1h2i9z5l5xpj30z00h5whr.jpg",
-  "spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider3.jar"
+  "spider": "https://raw.githubusercontents.com/wangsmale/ctv/main/0625/18x/custom_spider.jar"
 }

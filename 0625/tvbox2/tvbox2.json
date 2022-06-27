@@ -250,7 +250,7 @@
 "wasu",
 "bilibili"
 ],
-"spider": "https://cdn.jsdelivr.net/gh/wangsmale/ctv@latest/0625/tvbox2/custom_spider_0330.jar;md5;01a4ac9109a0602124cee4feddc1971e",
+"spider": "https://raw.githubusercontents.com/wangsmale/ctv/main/0625/tvbox2/custom_spider_0330.jar;md5;01a4ac9109a0602124cee4feddc1971e",
 "ijk": [
 {
 "group": "软解码",

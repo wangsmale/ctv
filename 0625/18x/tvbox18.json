@@ -1,5 +1,5 @@
 ﻿{
-"spider": "https://raw.githubusercontents.com/liu673cn/mao/main/jar/custom_spider.jar",
+"spider": "https://raw.githubusercontents.com/wangsmale/ctv/main/0625/18x/custom_spider.jar",
 
 "sites": [
 {"key": "csp_77"         ,"name":"🐞酷云七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
