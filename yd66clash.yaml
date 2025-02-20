@@ -5,18 +5,54 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国, server: 120.232.153.123, port: 45402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国 2, server: cloudflare.182682.xyz, port: 80, type: vmess, uuid: b9a3206d-278c-4614-b352-eef632d1c8d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/rongseven?ed=2048", ws-headers: {Host: kr.cfyyds.filegear-sg.me}, udp: true}
-  - {name: 英国, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Y3bjXCJbTPlRdyTqFAYGDZ, udp: true}
-  - {name: 德国, server: 52.57.173.145, port: 443, type: trojan, password: !<str> 3782591447421952000, skip-cert-verify: true, udp: true}
-  - {name: 美国 3, server: 188.253.22.10, port: 443, type: trojan, password: !<str> 3778399737045327872, skip-cert-verify: true, udp: true}
-  - {name: 德国 2, server: 193.122.58.158, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /linkws, ws-headers: {Host: irvideo.cfd}, udp: true}
-  - {name: 乌克兰, server: 185.234.64.35, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: YTNjNDY5, udp: true}
-  - {name: 俄罗斯, server: 185.174.138.196, port: 2082, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560", ws-headers: {Host: yellow-paper-029c.yvonna.workers.dev}, udp: true}
+  - {name: 美国, server: 108.165.152.36, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 韩国, server: 121.128.254.108, port: 34522, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 2, server: 188.164.159.214, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯, server: 92.243.75.49, port: 2087, type: trojan, password: wb6368, skip-cert-verify: true, udp: true}
+  - {name: 美国 3, server: 188.164.159.91, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯 2, server: 92.243.75.49, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 4, server: pranab.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: pranab.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 5, server: 188.164.159.171, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 香港, server: 154.197.64.248, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 韩国 2, server: 193.122.122.87, port: 52013, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 6, server: 199.34.228.50, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 韩国 3, server: 106.240.1.52, port: 20443, type: trojan, password: wb6368, skip-cert-verify: true, udp: true}
+  - {name: 英国, server: 141.11.203.168, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰, server: beta.mattenadene.org, port: 54075, type: ss, cipher: chacha20-ietf-poly1305, password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3, udp: true}
+  - {name: 美国 7, server: 120.198.71.219, port: 44614, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 8, server: thaddeus.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: thaddeus.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 9, server: lynn.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: lynn.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 10, server: 120.232.153.123, port: 45402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国, server: 45.87.175.65, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 美国 11, server: 107.173.149.120, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 12, server: cloudflare.182682.xyz, port: 80, type: vmess, uuid: b9a3206d-278c-4614-b352-eef632d1c8d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/rongseven?ed=2048", ws-headers: {Host: kr.cfyyds.filegear-sg.me}, udp: true}
+  - {name: 澳洲, server: 129.154.207.203, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 新加坡, server: 8.212.44.95, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 13, server: kfjdi.pages.dev, port: 443, type: trojan, password: er668, sni: kfjdi.pages.dev, skip-cert-verify: true, udp: true}
+  - {name: 荷兰, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 新加坡 2, server: 20.184.3.9, port: 2222, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 14, server: 120.234.102.229, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 15, server: 120.232.153.40, port: 54082, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯 3, server: is3.opensocks.site, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NjBlZDlk, udp: true}
+  - {name: 美国 16, server: 135.84.74.27, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
   - {name: 日本, server: 103.116.7.103, port: 2083, type: trojan, password: wb6368, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯 2, server: 92.243.75.49, port: 2087, type: trojan, password: wb6368, skip-cert-verify: true, udp: true}
+  - {name: 美国 17, server: 198.62.62.192, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 18, server: 108.165.152.252, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 香港 2, server: 154.197.64.67, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 香港 3, server: 154.211.8.152, port: 2053, type: trojan, password: wb6368, skip-cert-verify: true, udp: true}
+  - {name: 香港 4, server: 154.211.8.152, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 19, server: s1.cn-db.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.19.155.231, ws-headers: {Host: 100-230-189-184.s1.cn-db.top}, udp: true}
+  - {name: 美国 20, server: 206.238.237.146, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
   - {name: 日本 2, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: 德国 3, server: 165.22.74.230, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, skip-cert-verify: true, udp: true}
+  - {name: 香港 5, server: 154.197.64.67, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 21, server: 108.165.152.93, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 22, server: sage.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: sage.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 韩国 4, server: 61.80.135.3, port: 15672, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 韩国 5, server: 59.26.208.19, port: 22206, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰 2, server: at1.opensocks.site, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: OWY4ODBm, udp: true}
+  - {name: 美国 23, server: ignacio.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: ignacio.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 24, server: 104.129.166.131, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯 4, server: 185.174.138.196, port: 2082, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560", ws-headers: {Host: yellow-paper-029c.yvonna.workers.dev}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -24,34 +60,106 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美国
+      - 韩国
       - 美国 2
-      - 英国
-      - 德国
-      - 美国 3
-      - 德国 2
-      - 乌克兰
       - 俄罗斯
-      - 日本
+      - 美国 3
       - 俄罗斯 2
+      - 美国 4
+      - 美国 5
+      - 香港
+      - 韩国 2
+      - 美国 6
+      - 韩国 3
+      - 英国
+      - 乌克兰
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 德国
+      - 美国 11
+      - 美国 12
+      - 澳洲
+      - 新加坡
+      - 美国 13
+      - 荷兰
+      - 新加坡 2
+      - 美国 14
+      - 美国 15
+      - 俄罗斯 3
+      - 美国 16
+      - 日本
+      - 美国 17
+      - 美国 18
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 美国 19
+      - 美国 20
       - 日本 2
-      - 德国 3
+      - 香港 5
+      - 美国 21
+      - 美国 22
+      - 韩国 4
+      - 韩国 5
+      - 乌克兰 2
+      - 美国 23
+      - 美国 24
+      - 俄罗斯 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 美国
+      - 韩国
       - 美国 2
-      - 英国
-      - 德国
-      - 美国 3
-      - 德国 2
-      - 乌克兰
       - 俄罗斯
-      - 日本
+      - 美国 3
       - 俄罗斯 2
+      - 美国 4
+      - 美国 5
+      - 香港
+      - 韩国 2
+      - 美国 6
+      - 韩国 3
+      - 英国
+      - 乌克兰
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 德国
+      - 美国 11
+      - 美国 12
+      - 澳洲
+      - 新加坡
+      - 美国 13
+      - 荷兰
+      - 新加坡 2
+      - 美国 14
+      - 美国 15
+      - 俄罗斯 3
+      - 美国 16
+      - 日本
+      - 美国 17
+      - 美国 18
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 美国 19
+      - 美国 20
       - 日本 2
-      - 德国 3
+      - 香港 5
+      - 美国 21
+      - 美国 22
+      - 韩国 4
+      - 韩国 5
+      - 乌克兰 2
+      - 美国 23
+      - 美国 24
+      - 俄罗斯 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -59,17 +167,53 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美国
+      - 韩国
       - 美国 2
-      - 英国
-      - 德国
-      - 美国 3
-      - 德国 2
-      - 乌克兰
       - 俄罗斯
-      - 日本
+      - 美国 3
       - 俄罗斯 2
+      - 美国 4
+      - 美国 5
+      - 香港
+      - 韩国 2
+      - 美国 6
+      - 韩国 3
+      - 英国
+      - 乌克兰
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 德国
+      - 美国 11
+      - 美国 12
+      - 澳洲
+      - 新加坡
+      - 美国 13
+      - 荷兰
+      - 新加坡 2
+      - 美国 14
+      - 美国 15
+      - 俄罗斯 3
+      - 美国 16
+      - 日本
+      - 美国 17
+      - 美国 18
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 美国 19
+      - 美国 20
       - 日本 2
-      - 德国 3
+      - 香港 5
+      - 美国 21
+      - 美国 22
+      - 韩国 4
+      - 韩国 5
+      - 乌克兰 2
+      - 美国 23
+      - 美国 24
+      - 俄罗斯 4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -89,21 +233,62 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美国
+      - 韩国
       - 美国 2
-      - 英国
-      - 德国
-      - 美国 3
-      - 德国 2
-      - 乌克兰
       - 俄罗斯
-      - 日本
+      - 美国 3
       - 俄罗斯 2
+      - 美国 4
+      - 美国 5
+      - 香港
+      - 韩国 2
+      - 美国 6
+      - 韩国 3
+      - 英国
+      - 乌克兰
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 德国
+      - 美国 11
+      - 美国 12
+      - 澳洲
+      - 新加坡
+      - 美国 13
+      - 荷兰
+      - 新加坡 2
+      - 美国 14
+      - 美国 15
+      - 俄罗斯 3
+      - 美国 16
+      - 日本
+      - 美国 17
+      - 美国 18
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 美国 19
+      - 美国 20
       - 日本 2
-      - 德国 3
+      - 香港 5
+      - 美国 21
+      - 美国 22
+      - 韩国 4
+      - 韩国 5
+      - 乌克兰 2
+      - 美国 23
+      - 美国 24
+      - 俄罗斯 4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -111,34 +296,106 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 美国
+      - 韩国
       - 美国 2
-      - 英国
-      - 德国
-      - 美国 3
-      - 德国 2
-      - 乌克兰
       - 俄罗斯
-      - 日本
+      - 美国 3
       - 俄罗斯 2
+      - 美国 4
+      - 美国 5
+      - 香港
+      - 韩国 2
+      - 美国 6
+      - 韩国 3
+      - 英国
+      - 乌克兰
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 德国
+      - 美国 11
+      - 美国 12
+      - 澳洲
+      - 新加坡
+      - 美国 13
+      - 荷兰
+      - 新加坡 2
+      - 美国 14
+      - 美国 15
+      - 俄罗斯 3
+      - 美国 16
+      - 日本
+      - 美国 17
+      - 美国 18
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 美国 19
+      - 美国 20
       - 日本 2
-      - 德国 3
+      - 香港 5
+      - 美国 21
+      - 美国 22
+      - 韩国 4
+      - 韩国 5
+      - 乌克兰 2
+      - 美国 23
+      - 美国 24
+      - 俄罗斯 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 美国
+      - 韩国
       - 美国 2
-      - 英国
-      - 德国
-      - 美国 3
-      - 德国 2
-      - 乌克兰
       - 俄罗斯
-      - 日本
+      - 美国 3
       - 俄罗斯 2
+      - 美国 4
+      - 美国 5
+      - 香港
+      - 韩国 2
+      - 美国 6
+      - 韩国 3
+      - 英国
+      - 乌克兰
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 德国
+      - 美国 11
+      - 美国 12
+      - 澳洲
+      - 新加坡
+      - 美国 13
+      - 荷兰
+      - 新加坡 2
+      - 美国 14
+      - 美国 15
+      - 俄罗斯 3
+      - 美国 16
+      - 日本
+      - 美国 17
+      - 美国 18
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 美国 19
+      - 美国 20
       - 日本 2
-      - 德国 3
+      - 香港 5
+      - 美国 21
+      - 美国 22
+      - 韩国 4
+      - 韩国 5
+      - 乌克兰 2
+      - 美国 23
+      - 美国 24
+      - 俄罗斯 4
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -146,17 +403,53 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 美国
+      - 韩国
       - 美国 2
-      - 英国
-      - 德国
-      - 美国 3
-      - 德国 2
-      - 乌克兰
       - 俄罗斯
-      - 日本
+      - 美国 3
       - 俄罗斯 2
+      - 美国 4
+      - 美国 5
+      - 香港
+      - 韩国 2
+      - 美国 6
+      - 韩国 3
+      - 英国
+      - 乌克兰
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 德国
+      - 美国 11
+      - 美国 12
+      - 澳洲
+      - 新加坡
+      - 美国 13
+      - 荷兰
+      - 新加坡 2
+      - 美国 14
+      - 美国 15
+      - 俄罗斯 3
+      - 美国 16
+      - 日本
+      - 美国 17
+      - 美国 18
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 美国 19
+      - 美国 20
       - 日本 2
-      - 德国 3
+      - 香港 5
+      - 美国 21
+      - 美国 22
+      - 韩国 4
+      - 韩国 5
+      - 乌克兰 2
+      - 美国 23
+      - 美国 24
+      - 俄罗斯 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -173,17 +466,53 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 美国
+      - 韩国
       - 美国 2
-      - 英国
-      - 德国
-      - 美国 3
-      - 德国 2
-      - 乌克兰
       - 俄罗斯
-      - 日本
+      - 美国 3
       - 俄罗斯 2
+      - 美国 4
+      - 美国 5
+      - 香港
+      - 韩国 2
+      - 美国 6
+      - 韩国 3
+      - 英国
+      - 乌克兰
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 德国
+      - 美国 11
+      - 美国 12
+      - 澳洲
+      - 新加坡
+      - 美国 13
+      - 荷兰
+      - 新加坡 2
+      - 美国 14
+      - 美国 15
+      - 俄罗斯 3
+      - 美国 16
+      - 日本
+      - 美国 17
+      - 美国 18
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 美国 19
+      - 美国 20
       - 日本 2
-      - 德国 3
+      - 香港 5
+      - 美国 21
+      - 美国 22
+      - 韩国 4
+      - 韩国 5
+      - 乌克兰 2
+      - 美国 23
+      - 美国 24
+      - 俄罗斯 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
